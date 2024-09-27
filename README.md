@@ -1,0 +1,1 @@
+--> Enlace para almacenar imágenes de los productos de la API: https://drive.google.com/drive/folders/1OxU7LElEsSGKUN1iuc1GEPS6PZi67KbB?usp=sharing
