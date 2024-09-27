@@ -1,0 +1,8 @@
+# Ignorar los archivos de configuración de la base de datos
+HomeAPI/appsettings.Development.json
+HomeAPI/appsettings.json
+
+# Ignorar archivos de índice de Visual Studio
+.vs/
+HomeAPI/obj/
+HomeAPI/bin/
