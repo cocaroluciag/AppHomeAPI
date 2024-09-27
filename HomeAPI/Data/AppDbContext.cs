@@ -1,24 +1,43 @@
-﻿using Microsoft.EntityFrameworkCore; // Necesario para DbContext y DbSet
+﻿using Microsoft.EntityFrameworkCore;
 using HomeAPI.Models;
 
 namespace HomeAPI.Data
 {
-    public class AppDbContext : DbContext  // NO MODIFICAR
+    public class AppDbContext : DbContext
     {
-        public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Producto> Productos { get; set; }
-        public DbSet<Carrito> Carritos { get; set; }
-        public DbSet<CarritoProducto> CarritoProductos { get; set; }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-        {
-
-        }
+        public DbSet<Usuario> Usuario { get; set; }
+        //public DbSet<Carrito> Carritos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configuraciones adicionales si es necesario
-            base.OnModelCreating(modelBuilder);
+            // Configuración de la entidad Usuario
+            modelBuilder.Entity<Usuario>()
+                .HasKey(u => u.IdUsuario);
+
+            modelBuilder.Entity<Usuario>()
+                .Property(u => u.NombreUsuario)
+                .HasMaxLength(50)
+                .IsRequired();
+
+            modelBuilder.Entity<Usuario>()
+                .Property(u => u.Correo)
+                .HasMaxLength(100)
+                .IsRequired();
+
+            modelBuilder.Entity<Usuario>()
+                .Property(u => u.NumeroTelefonico)
+                .HasMaxLength(20);
+
+            modelBuilder.Entity<Usuario>()
+                .Property(u => u.NroDocumento)
+                .HasMaxLength(20);
+
+            modelBuilder.Entity<Usuario>()
+                .Property(u => u.Clave)
+                .HasMaxLength(100)
+                .IsRequired();
         }
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\HomeAPI.csproj": {}
+    "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\HomeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\HomeAPI.csproj": {
+    "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\HomeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\HomeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\HomeAPI.csproj",
         "projectName": "HomeAPI",
-        "projectPath": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\HomeAPI.csproj",
-        "packagesPath": "C:\\Users\\cocar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\obj\\",
+        "projectPath": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\HomeAPI.csproj",
+        "packagesPath": "C:\\Users\\valen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cocar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\valen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -64,9 +64,17 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -88,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
