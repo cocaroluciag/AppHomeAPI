@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace HomeAPI.Models
+namespace HomeAPI.Models.Dto
 {
-    public class Carrito
+    public class CarritoDto
     {
         [Key]
         public int IdCarrito { get; set; } // Identificador único del carrito
@@ -12,8 +12,5 @@ namespace HomeAPI.Models
 
         [Required]
         public DateTime FechaCreacion { get; set; } // Fecha de creación del carrito
-
-        // Puedes incluir una propiedad de navegación si deseas acceder al Usuario
-        public virtual Usuario Usuario { get; set; }
     }
 }
