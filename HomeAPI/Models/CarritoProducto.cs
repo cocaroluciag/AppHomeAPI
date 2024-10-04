@@ -1,17 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace HomeAPI.Models
 {
     public class CarritoProducto
     {
-        public int IdCarritoProducto { get; set; } 
-        public int IdCarrito { get; set; } 
-        public int IdProducto { get; set; } 
-        public int Cantidad { get; set; } 
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]  // Autoincremental
+        public int IdCarritoProducto { get; set; }
 
-        // Relaciones
-        public virtual Carrito Carrito { get; set; } // Llave foránea a Carrito
-        public virtual Producto Producto { get; set; } // Llave foránea a Producto
+        [Required]
+        public int IdCarrito { get; set; }
+
+        [Required]
+        public int IdProducto { get; set; }
+
+        [Required]
+        [Range(1, int.MaxValue)]
+        public int Cantidad { get; set; }
+
+        // Relación con Carrito (muchos a uno)
+        [ForeignKey("IdCarrito")]
+        public virtual Carrito Carrito { get; set; }
+
+        // Relación con Producto (muchos a uno)
+        [ForeignKey("IdProducto")]
+        public Producto? Producto { get; set; }
     }
 }
