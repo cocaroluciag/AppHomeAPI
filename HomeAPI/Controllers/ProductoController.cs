@@ -1,23 +1,30 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using HomeAPI.Data;
 using HomeAPI.Models;
+using HomeAPI.Models.Dto;
 
 namespace HomeAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class ProductoController : ControllerBase
     {
-        private static List<Producto> productos = new List<Producto>
+        private readonly AppDbContext _context;
+
+        public ProductoController(AppDbContext context)
         {
-            // Agrega más productos aquí
-        };
+            _context = context;
+        }
 
         // GET: api/producto
         [HttpGet]
         public ActionResult<IEnumerable<Producto>> GetProductos()
         {
+            var productos = _context.Productos.ToList();
             return Ok(productos);
         }
 
@@ -25,48 +32,80 @@ namespace HomeAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<Producto> GetProducto(int id)
         {
-            var producto = productos.FirstOrDefault(p => p.IdProducto == id);
+            var producto = _context.Productos.Find(id);
+
             if (producto == null)
             {
                 return NotFound();
             }
+
             return Ok(producto);
         }
 
         // POST: api/producto
         [HttpPost]
-        public ActionResult<Producto> CreateProducto([FromBody] Producto nuevoProducto)
+        public ActionResult<Producto> CrearProducto([FromBody] CrearProductoDto dto)
         {
-            nuevoProducto.IdProducto = productos.Max(p => p.IdProducto) + 1; // Asigna un nuevo ID
-            productos.Add(nuevoProducto);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var nuevoProducto = new Producto
+            {
+                NombreProducto = dto.NombreProducto,
+                Descripcion = dto.Descripcion,
+                Precio = dto.Precio,
+                Stock = dto.Stock,
+                Categoria = dto.Categoria,
+                Imagen = dto.Imagen
+            };
+
+            _context.Productos.Add(nuevoProducto);
+            _context.SaveChanges();
+
             return CreatedAtAction(nameof(GetProducto), new { id = nuevoProducto.IdProducto }, nuevoProducto);
         }
 
-        // PUT: api/producto/{id}
+        // PUT: api/ModificarProducto/{id}
         [HttpPut("{id}")]
-        public IActionResult UpdateProducto(int id, [FromBody] Producto productoActualizado)
+        public IActionResult ModificarProducto(int id, [FromBody] ModificarProductoDto dto)
         {
-            var producto = productos.FirstOrDefault(p => p.IdProducto == id);
-            if (producto == null)
+            var productoExistente = _context.Productos.Find(id);
+
+            if (productoExistente == null)
             {
                 return NotFound();
             }
-            producto.NombreProducto = productoActualizado.NombreProducto;
-            producto.Precio = productoActualizado.Precio;
+
+            productoExistente.NombreProducto = dto.NombreProducto;
+            productoExistente.Descripcion = dto.Descripcion;
+            productoExistente.Precio = dto.Precio;
+            productoExistente.Stock = dto.Stock;
+            productoExistente.Categoria = dto.Categoria;
+            productoExistente.Imagen = dto.Imagen;
+
+            _context.SaveChanges();
+
             return NoContent();
         }
 
         // DELETE: api/producto/{id}
         [HttpDelete("{id}")]
-        public IActionResult DeleteProducto(int id)
+        public IActionResult EliminarProducto(int id)
         {
-            var producto = productos.FirstOrDefault(p => p.IdProducto == id);
+            var producto = _context.Productos.Find(id);
+
             if (producto == null)
             {
                 return NotFound();
             }
-            productos.Remove(producto);
+
+            _context.Productos.Remove(producto);
+            _context.SaveChanges();
+
             return NoContent();
         }
     }
 }
+
