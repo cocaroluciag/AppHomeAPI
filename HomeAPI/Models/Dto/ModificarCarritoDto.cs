@@ -2,11 +2,8 @@
 
 namespace HomeAPI.Models.Dto
 {
-    public class CarritoDto
+    public class ModificarCarritoDto
     {
-        [Key]
-        public int IdCarrito { get; set; } // Identificador único del carrito
-
         [Required]
         public int IdUsuario { get; set; } // Relación 1:1 con Usuario
 

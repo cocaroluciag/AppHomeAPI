@@ -2,13 +2,10 @@
 
 namespace HomeAPI.Models.Dto
 {
-    public class UsuarioDto
+    public class ModificarUsuarioDto
     {
-        [Key]
-        public int IdUsuario { get; set; }
-
         [Required]
-        [StringLength(50)] // Puedes ajustar la longitud según lo necesario
+        [StringLength(50)]
         public string NombreUsuario { get; set; }
 
         [Required]
@@ -20,5 +17,6 @@ namespace HomeAPI.Models.Dto
 
         [Required]
         public string NroDocumento { get; set; }
+
     }
 }

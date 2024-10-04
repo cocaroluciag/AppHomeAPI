@@ -20,66 +20,46 @@ namespace HomeAPI.Controllers
             _context = context;
         }
 
-        // GET: api/Usuarios
+        // GET: api/usuario
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<UsuarioDto>>> GetUsuarios()
+        public ActionResult<IEnumerable<Usuario>> GetUsuarios()
         {
-            var usuarios = await _context.Usuarios.ToListAsync();
-            var usuarioDTOs = usuarios.Select(u => new UsuarioDto
-            {
-                IdUsuario = u.idUsuario,
-                NombreUsuario = u.NombreUsuario,
-                Correo = u.Correo,
-                NumeroTelefonico = u.NumeroTelefonico,
-                NroDocumento = u.NroDocumento
-            }).ToList();
-
-            return usuarioDTOs;
+            var usuarios = _context.Usuarios.ToList();
+            return Ok(usuarios);
         }
 
-        // GET: api/Usuarios/5
+        // GET: api/usuario/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<UsuarioDto>> GetUsuario(int id)
+        public ActionResult<Usuario> GetUsuario(int id)
         {
-            var usuario = await _context.Usuarios.FindAsync(id);
+            var usuario = _context.Usuarios.Find(id);
 
             if (usuario == null)
             {
                 return NotFound();
             }
 
-            var usuarioDTO = new UsuarioDto
-            {
-                IdUsuario = usuario.idUsuario,
-                NombreUsuario = usuario.NombreUsuario,
-                Correo = usuario.Correo,
-                NumeroTelefonico = usuario.NumeroTelefonico,
-                NroDocumento = usuario.NroDocumento
-            };
-
-            return usuarioDTO;
+            return Ok(usuario);
         }
 
         // PUT: api/Usuarios/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsuario(int id, UsuarioDto usuarioDTO)
+        [HttpPut("{id}")] //Modificar Usuario
+        public async Task<IActionResult> PutUsuario(int id, [FromBody] ModificarUsuarioDto dto)
         {
-            if (id != usuarioDTO.IdUsuario)
+            var usuarioExistente = await _context.Usuarios.FindAsync(id);
+
+            if (usuarioExistente == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            var usuario = new Usuario
-            {
-                idUsuario = usuarioDTO.IdUsuario,
-                NombreUsuario = usuarioDTO.NombreUsuario,
-                Correo = usuarioDTO.Correo,
-                NumeroTelefonico = usuarioDTO.NumeroTelefonico,
-                NroDocumento = usuarioDTO.NroDocumento
-                // No asignamos la Clave
-            };
+            usuarioExistente.NombreUsuario = dto.NombreUsuario ?? usuarioExistente.NombreUsuario;
+            usuarioExistente.Correo = dto.Correo ?? usuarioExistente.Correo;
+            usuarioExistente.NumeroTelefonico = dto.NumeroTelefonico ?? usuarioExistente.NumeroTelefonico;
+            usuarioExistente.NroDocumento = dto.NroDocumento ?? usuarioExistente.NroDocumento;
+            //usuarioExistente.Clave = dto.Clave ?? usuarioExistente.Clave;
 
-            _context.Entry(usuario).State = EntityState.Modified;
+            _context.Entry(usuarioExistente).State = EntityState.Modified;
 
             try
             {
@@ -102,30 +82,37 @@ namespace HomeAPI.Controllers
 
         // POST: api/Usuarios
         [HttpPost]
-        public async Task<ActionResult<UsuarioDto>> PostUsuario(UsuarioDto usuarioDTO)
+        public async Task<ActionResult<Usuario>> PostUsuario(CrearUsuarioDto dto) // Crear Usuario 
         {
-            var usuario = new Usuario
+            if (!ModelState.IsValid)
             {
-                NombreUsuario = usuarioDTO.NombreUsuario,
-                Correo = usuarioDTO.Correo,
-                NumeroTelefonico = usuarioDTO.NumeroTelefonico,
-                NroDocumento = usuarioDTO.NroDocumento
-                // No asignamos la Clave
+                return BadRequest(ModelState);
+            }
+
+            var nuevoUsuario = new Usuario
+            {
+                NombreUsuario = dto.NombreUsuario,
+                Correo = dto.Correo,
+                NumeroTelefonico = dto.NumeroTelefonico,
+                NroDocumento = dto.NroDocumento,
+                Clave = dto.Clave
             };
 
-            _context.Usuarios.Add(usuario);
+            _context.Usuarios.Add(nuevoUsuario);
             await _context.SaveChangesAsync();
 
-            usuarioDTO.IdUsuario = usuario.idUsuario; // Asignar el Id generado
+            // Usuario.IdUsuario = nuevoUsuario.idUsuario; // Asignar el Id generado
+            // return CreatedAtAction("GetUsuario", new { id = nuevoUsuario.idUsuario }, nuevoUsuario);
 
-            return CreatedAtAction("GetUsuario", new { id = usuario.idUsuario }, usuarioDTO);
+            return CreatedAtAction(nameof(GetUsuario), new { id = nuevoUsuario.idUsuario }, nuevoUsuario);
         }
 
-        // DELETE: api/Usuarios/5
+        // DELETE: api/Usuarios/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUsuario(int id)
         {
             var usuario = await _context.Usuarios.FindAsync(id);
+
             if (usuario == null)
             {
                 return NotFound();

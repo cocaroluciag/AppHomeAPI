@@ -10,6 +10,8 @@ public class Usuario
     public string Correo { get; set; }
     public string NumeroTelefonico { get; set; }
     public string NroDocumento { get; set; }
+
+    [Required]
     public string Clave { get; set; }
 
     public Carrito Carrito { get; set; }

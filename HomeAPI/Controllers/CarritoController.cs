@@ -22,54 +22,45 @@ namespace HomeAPI.Controllers
 
         // GET: api/Carrito
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CarritoDto>>> GetCarritos()
+        public async Task<ActionResult<IEnumerable<Carrito>>> GetCarritos()
         {
-            var carritos = await _context.Carritos.ToListAsync();
-            var carritoDTOs = carritos.Select(c => new CarritoDto
-            {
-                IdCarrito = c.IdCarrito,
-                IdUsuario = c.IdUsuario,
-                FechaCreacion = c.FechaCreacion
-            }).ToList();
-
-            return carritoDTOs;
+            return Ok(await _context.Carritos.ToListAsync());
         }
 
         // GET: api/Carrito/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<CarritoDto>> GetCarrito(int id)
+        [HttpGet("{id}")] //Obtener-visualizar Carrito
+        public async Task<ActionResult<ObtenerCarritoDto>> GetCarrito(int idCarrito)
         {
-            var carrito = await _context.Carritos.FindAsync(id);
+            var carrito = await _context.Carritos.FindAsync(idCarrito);
 
             if (carrito == null)
             {
                 return NotFound();
             }
 
-            var carritoDTO = new CarritoDto
+            var obtenerCarritoDto = new ObtenerCarritoDto
             {
                 IdCarrito = carrito.IdCarrito,
                 IdUsuario = carrito.IdUsuario,
                 FechaCreacion = carrito.FechaCreacion
             };
 
-            return carritoDTO;
+            return obtenerCarritoDto;
         }
 
-        // PUT: api/Carrito/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCarrito(int id, CarritoDto carritoDTO)
+        // PUT: api/Carrito/5  NO ES NECESARIO EL ENDPOINT PUT EN TABLA CARRITO, LOS ATRIBUTOS NO SON MODIFICABLES.
+        /*/[HttpPut("{id}")] //Modificar-editar Carrito
+        public async Task<IActionResult> PutCarrito(int id, [FromBody] CarritoDto dto)
         {
-            if (id != carritoDTO.IdCarrito)
+            if (id != dto.IdCa)
             {
                 return BadRequest();
             }
 
             var carrito = new Carrito
             {
-                IdCarrito = carritoDTO.IdCarrito,
-                IdUsuario = carritoDTO.IdUsuario,
-                FechaCreacion = carritoDTO.FechaCreacion
+                IdUsuario = dto.IdUsuario,
+                FechaCreacion = dto.FechaCreacion
             };
 
             _context.Entry(carrito).State = EntityState.Modified;
@@ -91,24 +82,23 @@ namespace HomeAPI.Controllers
             }
 
             return NoContent();
-        }
+        }*/
 
         // POST: api/Carrito
         [HttpPost]
-        public async Task<ActionResult<CarritoDto>> PostCarrito(CarritoDto carritoDTO)
+        public async Task<ActionResult<Carrito>> PostCarrito([FromBody] ModificarCarritoDto dto) //Crear Carrito
         {
             var carrito = new Carrito
             {
-                IdUsuario = carritoDTO.IdUsuario,
-                FechaCreacion = carritoDTO.FechaCreacion
+                IdUsuario = dto.IdUsuario,
+                //FechaCreacion = dto.FechaCreacion
             };
 
             _context.Carritos.Add(carrito);
             await _context.SaveChangesAsync();
 
-            carritoDTO.IdCarrito = carrito.IdCarrito; // Asignar el Id generado
+            return CreatedAtAction(nameof(GetCarrito), new { idCarrito = carrito.IdCarrito }, carrito);
 
-            return CreatedAtAction("GetCarrito", new { id = carrito.IdCarrito }, carritoDTO);
         }
 
         // DELETE: api/Carrito/5
@@ -116,6 +106,7 @@ namespace HomeAPI.Controllers
         public async Task<IActionResult> DeleteCarrito(int id)
         {
             var carrito = await _context.Carritos.FindAsync(id);
+
             if (carrito == null)
             {
                 return NotFound();
