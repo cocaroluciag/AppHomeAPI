@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\dto\\modificarcarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\modificarcarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\dto\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\dto\\crearusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\crearusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\dto\\obtenercarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\obtenercarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\controllers\\carritoproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\carritoproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\dto\\modificarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\modificarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\valen\\desktop\\apphomeapi\\apphomeapi\\homeapi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,94 +74,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ObtenerCarritoDto.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\ObtenerCarritoDto.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\ObtenerCarritoDto.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\ObtenerCarritoDto.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\Dto\\ObtenerCarritoDto.cs",
-              "ViewState": "AQIAAAQAAADIMjMzMzM7wA4AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\UsuarioController.cs*",
+              "RelativeToolTip": "HomeAPI\\Controllers\\UsuarioController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T01:21:54.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ModificarUsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\ModificarUsuarioDto.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\ModificarUsuarioDto.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\ModificarUsuarioDto.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\Dto\\ModificarUsuarioDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T01:20:39.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CarritoController.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\CarritoController.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\CarritoController.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\CarritoController.cs",
-              "RelativeToolTip": "HomeAPI\\Controllers\\CarritoController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAABwvX0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T15:49:13.502Z",
+              "WhenOpened": "2024-10-09T01:10:33.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ModificarCarritoDto.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\ModificarCarritoDto.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\ModificarCarritoDto.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\ModificarCarritoDto.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\Dto\\ModificarCarritoDto.cs",
-              "ViewState": "AQIAAAAAAABYMjMzMzMrwAUAAAAFAAAA",
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\LoginResponseDto.cs*",
+              "RelativeToolTip": "HomeAPI\\Models\\Dto\\LoginResponseDto.cs*",
+              "ViewState": "AQIAAAMAAADAMjMzMzMrwAkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T15:46:06.088Z",
+              "WhenOpened": "2024-10-09T00:55:02.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Carrito.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\Carrito.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Carrito.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\Carrito.cs",
-              "ViewState": "AQIAAAYAAACAZWZmZmYswAkAAAASAAAA",
+              "DocumentIndex": 2,
+              "Title": "UsuarioLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\UsuarioLoginDto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\UsuarioLoginDto.cs",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\UsuarioLoginDto.cs*",
+              "RelativeToolTip": "HomeAPI\\Models\\Dto\\UsuarioLoginDto.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T15:40:20.168Z",
+              "WhenOpened": "2024-10-09T00:54:39.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CrearUsuarioDto.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\CrearUsuarioDto.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\CrearUsuarioDto.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Dto\\CrearUsuarioDto.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\Dto\\CrearUsuarioDto.cs",
-              "ViewState": "AQIAAAkAAADgy8zMzMwmwBUAAAAAAAAA",
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "HomeAPI\\Controllers\\CarritoController.cs",
+              "ViewState": "AQIAAFMAAACoAgAAAIAVwFgAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T15:39:58.938Z",
+              "WhenOpened": "2024-10-05T01:12:10.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "HomeAPI\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAGwAAACgmZmZmZkvwC4AAABQAAAA",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Usuario.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T22:41:14.611Z",
+              "WhenOpened": "2024-10-04T15:42:46.066Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Carrito.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Carrito.cs",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Carrito.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Carrito.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:42:36.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarritoProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\CarritoProductoController.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\CarritoProductoController.cs",
+              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Controllers\\CarritoProductoController.cs",
+              "RelativeToolTip": "HomeAPI\\Controllers\\CarritoProductoController.cs",
+              "ViewState": "AQIAAGcAAAAAkWZmZmYfwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:38:03.971Z"
             },
             {
               "$type": "Document",
@@ -175,23 +169,9 @@
               "RelativeDocumentMoniker": "HomeAPI\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Data\\AppDbContext.cs",
               "RelativeToolTip": "HomeAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAADIAAABozszMzCwwwCkAAAAmAAAA",
+              "ViewState": "AQIAAAEAAAAAaGZmZmYUwGkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:21:14.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\valen\\Desktop\\AppHomeApi\\AppHomeAPI\\HomeAPI\\Models\\Usuario.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAcAAADQ/v////80wAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:20:24.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T15:36:26.668Z"
             }
           ]
         }

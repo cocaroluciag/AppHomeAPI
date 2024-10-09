@@ -91,6 +91,7 @@ namespace HomeAPI.Controllers
             var carrito = new Carrito
             {
                 IdUsuario = dto.IdUsuario,
+                FechaCreacion = DateTime.Now,
                 //FechaCreacion = dto.FechaCreacion
             };
 

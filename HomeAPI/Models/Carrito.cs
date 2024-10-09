@@ -15,5 +15,8 @@ namespace HomeAPI.Models
 
         // Puedes incluir una propiedad de navegación si deseas acceder al Usuario
         public virtual Usuario Usuario { get; set; }
+
+        // Relación muchos a muchos con Producto a través de CarritoProducto
+        public ICollection<CarritoProducto> CarritoProductos { get; set; }
     }
 }
