@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HomeAPI.Data;
 using HomeAPI.Models;
@@ -18,6 +15,31 @@ namespace HomeAPI.Controllers
         public UsuarioController(AppDbContext context)
         {
             _context = context;
+        }
+
+        [HttpPost("ValidarCredencial")]
+        public async Task<IActionResult> ValidarCredencial([FromBody] UsuarioLoginDto usuario)
+        {
+            var existeLogin = await _context.Usuarios
+                .AnyAsync(x => x.NombreUsuario.Equals(usuario.NombreUsuario) && x.Clave.Equals(usuario.Clave));
+
+            Usuario usuarioLogin = await _context.Usuarios.FirstOrDefaultAsync(x => x.NombreUsuario.Equals(usuario.NombreUsuario) && x.Clave.Equals(usuario.Clave));
+
+
+            if (!existeLogin)
+            {
+                return NotFound("Usuario No Existe");
+            }
+
+            LoginResponseDto loginReponse = new LoginResponseDto()
+            {
+                Autenticado = existeLogin,
+                Correo = existeLogin ? usuarioLogin.Correo : "",
+                NombreUsuario = existeLogin ? usuarioLogin.NombreUsuario : "",
+                idUsuario = existeLogin ? usuarioLogin.idUsuario : 0
+            };
+
+            return Ok(loginReponse);
         }
 
         // GET: api/usuario
