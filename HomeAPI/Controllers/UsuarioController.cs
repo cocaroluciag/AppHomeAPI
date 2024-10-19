@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HomeAPI.Data;
-using HomeAPI.Models;
 using HomeAPI.Models.Dto;
+using HomeAPI.Models;
 
 namespace HomeAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] // Asegúrate de que esta línea esté correcta
     [ApiController]
     public class UsuarioController : ControllerBase
     {
@@ -16,6 +16,25 @@ namespace HomeAPI.Controllers
         {
             _context = context;
         }
+
+        /*[HttpPost("ValidarCredencial")] // Asegúrate de que esto esté correcto
+        public async Task<IActionResult> ValidarCredencial(UsuarioLoginDto loginDto)
+        {
+            if (loginDto == null || string.IsNullOrEmpty(loginDto.NombreUsuario) || string.IsNullOrEmpty(loginDto.Clave))
+            {
+                return BadRequest("Credenciales inválidas.");
+            }
+
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(u => u.NombreUsuario == loginDto.NombreUsuario && u.Clave == loginDto.Clave);
+
+            if (usuario == null)
+            {
+                return NotFound("Usuario no encontrado.");
+            }
+
+            return Ok("Usuario validado exitosamente."); // O devuelve los detalles del usuario
+        }*/
 
         [HttpPost("ValidarCredencial")]
         public async Task<IActionResult> ValidarCredencial([FromBody] UsuarioLoginDto usuario)
@@ -34,12 +53,16 @@ namespace HomeAPI.Controllers
             LoginResponseDto loginReponse = new LoginResponseDto()
             {
                 Autenticado = existeLogin,
-                Correo = existeLogin ? usuarioLogin.Correo : "",
-                NombreUsuario = existeLogin ? usuarioLogin.NombreUsuario : "",
-                idUsuario = existeLogin ? usuarioLogin.idUsuario : 0
+                NombreUsuario = existeLogin ? usuarioLogin.NombreUsuario : ""
             };
 
             return Ok(loginReponse);
+        }
+
+        [HttpGet("Test")]
+        public IActionResult Test()
+        {
+            return Ok("API está funcionando");
         }
 
         // GET: api/usuario
@@ -99,7 +122,7 @@ namespace HomeAPI.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok();
         }
 
         // POST: api/Usuarios

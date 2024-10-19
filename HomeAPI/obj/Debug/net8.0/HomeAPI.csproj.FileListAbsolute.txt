@@ -216,7 +216,6 @@ C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\System.Ref
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\ar\Humanizer.resources.dll
@@ -390,3 +389,4 @@ C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\obj\Debug\net8.0\refint\Hom
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\obj\Debug\net8.0\HomeAPI.pdb
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\obj\Debug\net8.0\HomeAPI.genruntimeconfig.cache
 C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\obj\Debug\net8.0\ref\HomeAPI.dll
+C:\Users\valen\Desktop\AppHomeApi\AppHomeAPI\HomeAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
