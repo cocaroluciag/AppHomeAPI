@@ -94,6 +94,7 @@ namespace HomeAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult EliminarProducto(int id)
         {
+            // Para encontrar el producto
             var producto = _context.Productos.Find(id);
 
             if (producto == null)
@@ -101,7 +102,19 @@ namespace HomeAPI.Controllers
                 return NotFound();
             }
 
+            // Elimina los registros relacionados en la tabla CarritoProducto
+            var carritoProductos = _context.CarritoProductos.Where(cp => cp.IdProducto == id);
+
+            if (carritoProductos.Any())
+            {
+                // Elimina todos los registros de CarritoProducto que contienen dicho producto
+                _context.CarritoProductos.RemoveRange(carritoProductos);
+            }
+
+            // Luego, elimina el producto
             _context.Productos.Remove(producto);
+
+            // Guarda los cambios
             _context.SaveChanges();
 
             return NoContent();

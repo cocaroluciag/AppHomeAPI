@@ -8,7 +8,7 @@ namespace HomeAPI.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Producto> Productos { get; set; }
-        public DbSet<Usuario> Usuarios { get; set; }
+        //public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Carrito> Carritos { get; set; }
         public DbSet<CarritoProducto> CarritoProductos { get; set; }
 
@@ -63,7 +63,7 @@ namespace HomeAPI.Data
 
 
             // Configuración de la entidad Usuario
-            modelBuilder.Entity<Usuario>()
+           /* modelBuilder.Entity<Usuario>()
                 .HasKey(u => u.idUsuario);
 
             modelBuilder.Entity<Usuario>()
@@ -87,7 +87,7 @@ namespace HomeAPI.Data
             modelBuilder.Entity<Usuario>()
                 .Property(u => u.Clave)
                 .HasMaxLength(100)
-                .IsRequired();
+                .IsRequired();*/
 
             //Configuracion de Carrito
 
@@ -105,7 +105,7 @@ namespace HomeAPI.Data
                 .IsRequired(); // Asegurar que IdUsuario es obligatorio
 
             // Forzar nombres de tablas en singular
-            modelBuilder.Entity<Usuario>().ToTable("Usuario");
+           // modelBuilder.Entity<Usuario>().ToTable("Usuario");
             modelBuilder.Entity<Producto>().ToTable("Producto");
             modelBuilder.Entity<Carrito>().ToTable("Carrito");
             modelBuilder.Entity<CarritoProducto>().ToTable("CarritoProducto");

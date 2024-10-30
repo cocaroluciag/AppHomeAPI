@@ -3,52 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\controllers\\carritoproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\carritoproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\dto\\crearproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\crearproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\carritoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\carritoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\controllers\\carritoproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\carritoproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\dto\\modificarcarritoproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\modificarcarritoproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\dto\\modificarcarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\modificarcarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\dto\\crearcarritoproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\crearcarritoproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\carritoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\carritoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\dto\\modificarproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\modificarproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\homeapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\homeapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\models\\dto\\obtenercarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\models\\dto\\obtenercarritodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|c:\\users\\cocar\\source\\repos\\homeapi\\homeapi\\migrations\\20241001232451_modificacionesdbramalucy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4773DD-066F-417E-837C-5C0C29B82EE6}|HomeAPI\\HomeAPI.csproj|solutionrelative:homeapi\\migrations\\20241001232451_modificacionesdbramalucy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,63 +90,172 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarritoProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\CarritoProductoController.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\CarritoProductoController.cs",
-              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\CarritoProductoController.cs",
-              "RelativeToolTip": "HomeAPI\\Controllers\\CarritoProductoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T03:01:19.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CarritoController.cs",
-              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\CarritoController.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\CarritoController.cs",
-              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\CarritoController.cs",
-              "RelativeToolTip": "HomeAPI\\Controllers\\CarritoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Usuario.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T03:00:44.88Z",
+              "WhenOpened": "2024-10-30T00:19:38.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "CrearProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\CrearProductoDto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\CrearProductoDto.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\CrearProductoDto.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Dto\\CrearProductoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:03:11.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "HomeAPI\\Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "HomeAPI\\Controllers\\ProductoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T03:00:29.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "HomeAPI\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "CarritoProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\CarritoProductoController.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\CarritoProductoController.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\CarritoProductoController.cs",
+              "RelativeToolTip": "HomeAPI\\Controllers\\CarritoProductoController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAwAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T03:00:03.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T03:01:19.116Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ModificarCarritoDto.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\ModificarCarritoDto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\ModificarCarritoDto.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\ModificarCarritoDto.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Dto\\ModificarCarritoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:03:18.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "HomeAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T02:23:39.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Carrito.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Carrito.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Carrito.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Carrito.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAApwBAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T01:37:44.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarritoProducto.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\CarritoProducto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\CarritoProducto.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\CarritoProducto.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\CarritoProducto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T01:38:01.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CrearCarritoProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\CrearCarritoProductoDto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\CrearCarritoProductoDto.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\CrearCarritoProductoDto.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Dto\\CrearCarritoProductoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T02:47:03.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModificarCarritoProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\ModificarCarritoProductoDto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\ModificarCarritoProductoDto.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\ModificarCarritoProductoDto.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Dto\\ModificarCarritoProductoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T03:15:12.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModificarProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\ModificarProductoDto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\ModificarProductoDto.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\ModificarProductoDto.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Dto\\ModificarProductoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:25:29.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "HomeAPI\\Controllers\\CarritoController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:00:44.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HomeAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HomeAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T03:12:54.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "HomeAPI\\appsettings.Development.json",
@@ -122,99 +263,78 @@
               "RelativeToolTip": "HomeAPI\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-27T02:24:10.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T06:55:29.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\appsettings.json",
               "RelativeDocumentMoniker": "HomeAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\appsettings.json",
               "RelativeToolTip": "HomeAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-27T02:24:04.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T05:47:33.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "HomeAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T02:23:39.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CarritoProducto.cs",
-              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\CarritoProducto.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\CarritoProducto.cs",
-              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\CarritoProducto.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\CarritoProducto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:38:01.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Carrito.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\Carrito.cs",
-              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Carrito.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\Carrito.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:37:44.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "HomeAPI\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Usuario.cs",
-              "RelativeToolTip": "HomeAPI\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:37:09.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Program.cs",
               "RelativeDocumentMoniker": "HomeAPI\\Program.cs",
               "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Program.cs",
               "RelativeToolTip": "HomeAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:09:42.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T01:09:42.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "HomeAPI\\Models\\Producto.cs",
               "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Producto.cs",
               "RelativeToolTip": "HomeAPI\\Models\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:37:23.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T01:37:23.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeAPI",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\HomeAPI.csproj",
+              "RelativeDocumentMoniker": "HomeAPI\\HomeAPI.csproj",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\HomeAPI.csproj",
+              "RelativeToolTip": "HomeAPI\\HomeAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-12T03:54:16.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ObtenerCarritoDto.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\ObtenerCarritoDto.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Models\\Dto\\ObtenerCarritoDto.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Models\\Dto\\ObtenerCarritoDto.cs",
+              "RelativeToolTip": "HomeAPI\\Models\\Dto\\ObtenerCarritoDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwAoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:16:16.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241001232451_ModificacionesDBRamaLucy.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Migrations\\20241001232451_ModificacionesDBRamaLucy.cs",
+              "RelativeDocumentMoniker": "HomeAPI\\Migrations\\20241001232451_ModificacionesDBRamaLucy.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\HomeAPI\\HomeAPI\\Migrations\\20241001232451_ModificacionesDBRamaLucy.cs",
+              "RelativeToolTip": "HomeAPI\\Migrations\\20241001232451_ModificacionesDBRamaLucy.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:24:55.432Z"
             }
           ]
         }
