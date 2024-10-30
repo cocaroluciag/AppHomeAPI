@@ -121,6 +121,7 @@ C:\Users\cocar\source\repos\HomeAPI\HomeAPI\obj\Debug\net8.0\HomeAPI.AssemblyInf
 C:\Users\cocar\source\repos\HomeAPI\HomeAPI\obj\Debug\net8.0\HomeAPI.csproj.CoreCompileInputs.cache
 C:\Users\cocar\source\repos\HomeAPI\HomeAPI\obj\Debug\net8.0\HomeAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\cocar\source\repos\HomeAPI\HomeAPI\obj\Debug\net8.0\HomeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cocar\source\repos\HomeAPI\HomeAPI\obj\Debug\net8.0\HomeAPI.sourcelink.json
 C:\Users\cocar\source\repos\HomeAPI\HomeAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\cocar\source\repos\HomeAPI\HomeAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\cocar\source\repos\HomeAPI\HomeAPI\obj\Debug\net8.0\staticwebassets\msbuild.HomeAPI.Microsoft.AspNetCore.StaticWebAssets.props

@@ -6,3 +6,10 @@ HomeAPI/appsettings.json
 .vs/
 HomeAPI/obj/
 HomeAPI/bin/
+.vs/
+
+# Ignorar archivos de ensamblado generados automáticamente
+HomeAPI/obj/**/*.cs
+HomeAPI/obj/**/*.cache
+HomeAPI/obj/**/*.dll
+HomeAPI/obj/**/*.exe
